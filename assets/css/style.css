@@ -112,9 +112,8 @@ img {
 
     /* Content Wrappper */
     #content-wrapper{
-    padding-left: var(--sidbar-width);
-
-} 
+    padding-left: var(--sidbar-width);  
+    }
 }
 
 /* BTN */
@@ -168,4 +167,41 @@ img {
 
 .card-custom:hover .card-custom-image img {
     transform: scale(1.1);
+}
+
+/* Contact */
+#contact .form-control {
+    background-color: var(--color-base);
+    border-color: var(--color-base);
+    color: var(--color-body);
+}
+
+#contact .form-control:focus{
+    border: var(--color-brand);
+    box-shadow: none;
+}
+
+#contact .form-control::placeholder{
+    color: var(--color-body);
+}
+
+#contact input.form-control {
+    height: 44px;
+}
+
+/* Social items */
+
+.social-icons{
+
+}
+
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-base);
+    border-radius: 100px;
+    font-size: 26px;
 }
