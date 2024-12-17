@@ -2,13 +2,22 @@
 
 :root{
     --color-body: #b6cbce;
-    --color-heading: #eef3db;
-    --color-base: #033f47;
-    --color-base2: #022a30;
-    --color-brand: #e0f780;
-    --color-brand2: #deff58;
+    --color-heading: #FDECD2;
+    --color-base: #180C08;
+    --color-base2: #343434;
+    --color-brand: #09BC8A;
+    --color-brand2: #47edbe;
     --sidbar-width: 240px;
     --font-base: "Rubik";
+
+    /* --color-body: #b6cbce;
+    --color-heading: #eef3db;
+    --color-base: #033f47;
+    --color-base2: #343434;
+    --color-brand: #09BC8A; 
+    --color-brand2: #E85F5C;
+    --sidbar-width: 240px;
+    --font-base: "Rubik"; */
 
 }
 
@@ -91,12 +100,12 @@ img {
 }
 
 .navbar .mav-link.active{
-    color: var(--color-brand);
+    color: var(--color-brand2);
 
 }
 
 .navbar .mav-link:hover{
-    color: var(--color-brand2)
+    color: var(--color-brand)
 }
 @media (min-width: 992px) {
     .navbar{
@@ -122,13 +131,13 @@ img {
     font-weight: 700;
 }
 .btn-brand {
-    background-color: var(--color-brand);
+    background-color: var(--color-brand2);
     border-color: var(--color-brand);
 }
 
 .btn-brand:hover,
 .btn-brand:focus-visible{
-    background-color: var(--color-brand2);
+    background-color: var(--color-brand);
     color: var(--color-base2);
     border-color: var(--color-brand2);
     cursor: pointer;
