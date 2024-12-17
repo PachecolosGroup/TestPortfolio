@@ -40,6 +40,10 @@ img {
 .text-brand{
     color: var(--color-brand);
 }
+
+.bg-base{
+    background-color: var(--color-base);
+}
 .lead{
     max-width: 760px;
 }
@@ -54,6 +58,25 @@ img {
     padding-bottom: 80px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
+.shadow-effect{
+    transition: all 0.5s;
+
+}
+
+.shadow-effect:hover{
+    box-shadow:  -6px 6px 0 0 var(--color-brand2);
+}
+
+.iconbox{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color: var(--color-brand);
+    color: var(--color-base);
+}
 
 /*  NAVBAR */
 .navbar{
@@ -65,6 +88,11 @@ img {
     font-weight: 700;
     text-transform: uppercase;
     color: #ffff;
+}
+
+.navbar .mav-link.active{
+    color: var(--color-brand);
+
 }
 
 .navbar .mav-link:hover{
@@ -126,4 +154,18 @@ img {
 .custom-link:hover::after{
     width: 100%;
 
+}
+
+/* CARDS */
+
+.card-custom .card-custom-image{
+    overflow: hidden;
+}
+
+.card-custom .card-custom-image img {
+    transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-image img {
+    transform: scale(1.1);
 }
